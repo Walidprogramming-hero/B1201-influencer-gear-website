@@ -1,0 +1,22 @@
+/* mobile device */
+@media screen and (max-width:576px) {
+    nav {
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 15px;
+    }
+    .main-banner{
+       flex-direction: column-reverse;
+       gap: 50px;
+    }
+    .banner-content{
+        text-align: center;
+    }
+}
+/* tablet device */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
