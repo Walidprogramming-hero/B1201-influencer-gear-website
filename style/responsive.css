@@ -15,8 +15,15 @@
     .banner-content{
         text-align: center;
     }
+    .app-session{
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+    }
 }
 /* tablet device */
 @media screen and (min-width:576px) and (max-width:992px) {
-    
+    .app-session{
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+    }
 }

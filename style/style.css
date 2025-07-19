@@ -69,7 +69,7 @@
 /* banner-1 */
 .banner-1{
     max-width: 1110px;
-    margin: 50px auto 70px auto;
+    margin: 150px auto 70px auto;
     text-align: center;
 }
 /* banner-2 */
@@ -129,4 +129,16 @@ ul li a{
 }
 
 /* banner-continer session stylin starts */
+/* app session continer starts */
+.app-session{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    box-shadow: 0 0 2px;
+    height: 120px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+/* app session continer ends */
 
