@@ -162,6 +162,7 @@ ul li a{
     padding: 8px;
     border-radius: 5px;
     overflow: hidden;
+    background-color: white;
 }
 .card img{
     width: 100%;
