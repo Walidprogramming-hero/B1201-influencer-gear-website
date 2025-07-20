@@ -77,6 +77,10 @@
     max-width: 1047px;
     margin: 0px auto 70px auto;
 }
+/* card */
+.sub{
+    max-width: 196px;
+}
 /* shared styling session ends */
 /* nav styling starts */
 nav{
@@ -141,4 +145,55 @@ ul li a{
     gap: 15px;
 }
 /* app session continer ends */
+/* popular collection session starts */
+.popular-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.popular-tittle{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.card{
+    max-width: 329px;
+    box-shadow: 0 0 5px;
+    height: 476px;
+    padding: 8px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+#medium{
+    font-weight: 500;
+}
+.cart-tittle{
+    font-size: 1.8rem;
+    margin-bottom: 7px;
+}
+.price-tittle{
+    font-size: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.card-description{
+    font-size: 14px;
+    font-weight: 700;
+   font-family: "Inter", sans-serif; 
+   margin-bottom: 8px;
+   line-height: 25px;
+}
+.card-sub-tittle{
+    font-size: 14px;
+     font-weight: 700;
+   font-family: "Inter", sans-serif;
+}
+/* popular collection session ends */
 
