@@ -70,7 +70,6 @@
 .banner-1{
     max-width: 1110px;
     margin: 150px auto 70px auto;
-    text-align: center;
 }
 /* banner-2 */
 .banner-2{
@@ -197,4 +196,20 @@ ul li a{
    font-family: "Inter", sans-serif;
 }
 /* popular collection session ends */
+/* future-product-session starts */
+.furture-product{
+    display: flex;
+   gap: 96px;
+   align-items: center;
+}
+.product-tittle{
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+.product-sub-tittle{
+    max-width: 501px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+/* future-product-session ends */
 
