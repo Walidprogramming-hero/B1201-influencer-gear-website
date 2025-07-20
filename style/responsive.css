@@ -25,6 +25,7 @@
     }
     .furture-product{
         flex-direction: column-reverse;
+        gap: 50px;
     }
     .product-content{
         text-align: center;
